@@ -1,0 +1,78 @@
+.wpsocialite::after {
+	height: 0px; clear: both; font-size: 0px; display: block; visibility: hidden; content: " ";
+}
+.wpsocialite .vhidden {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; width: 1px; height: 1px; overflow: hidden; position: absolute; clip: rect(0px, 0px, 0px, 0px);
+}
+.large.wpsocialite {
+	list-style: none; margin: 20px; padding: 0px; overflow: visible; display: block;
+}
+.large.wpsocialite > li {
+	margin: 0px; padding: 10px; float: left; display: block;
+}
+.large.wpsocialite .socialite {
+	background: url("social-sprite.png") no-repeat 0px 0px; display: block; position: relative;
+}
+.large.wpsocialite .socialite-loaded {
+	background: none !important;
+}
+.large.wpsocialite .twitter-share {
+	background-position: 0px 0px; width: 55px; height: 65px;
+}
+.large.wpsocialite .googleplus-one {
+	background-position: -75px 0px; width: 50px; height: 65px;
+}
+.large.wpsocialite .facebook-like {
+	background-position: -145px 0px; width: 50px; height: 65px;
+}
+.large.wpsocialite .linkedin-share {
+	background-position: -215px 0px; width: 60px; height: 65px;
+}
+.large.wpsocialite .pinterest-pinit {
+	background-position: -367px 0px; width: 50px; height: 65px;
+}
+.large.wpsocialite .stumbleupon-share {
+	background-position: -439px 0px; width: 50px; height: 65px;
+}
+.large.wpsocialite .twitter-follow {
+	background-position: -509px 0px; width: 56px; height: 65px;
+}
+.large.wpsocialite .socialite-loaded.twitter-follow {
+	width: 100%;
+}
+.large.wpsocialite .vkontakte-like {
+	background: red; width: 50px; height: 65px;
+}
+.small.wpsocialite {
+	list-style: none; margin: 10px; padding: 10px; overflow: visible; display: block;
+}
+.small.wpsocialite > li {
+	margin: 0px; width: 20%; float: left; display: inline;
+}
+.small.wpsocialite .socialite {
+	background: url("custom-default.png") no-repeat 0px 0px; width: 150px; height: 30px; display: block; position: relative;
+}
+.small.wpsocialite .socialite-loaded {
+	background: none;
+}
+.small.wpsocialite .twitter-share {
+	background-position: 0px 0px;
+}
+.small.wpsocialite .googleplus-one {
+	background-position: 0px -45px;
+}
+.small.wpsocialite .facebook-like {
+	background-position: 0px -90px;
+}
+.small.wpsocialite .linkedin-share {
+	background-position: 0px -135px;
+}
+.small.wpsocialite .pinterest-pinit {
+	background-position: 0px -175px;
+}
+.small.wpsocialite .stumbleupon-share {
+	background-position: 0px -225px;
+}
+.small.wpsocialite .socialite-loaded.twitter-follow {
+	width: 200px;
+}

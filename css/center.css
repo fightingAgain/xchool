@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*base*/
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	text-align:center;
+	background:#FF6;
+}
+/*main*/
+.imgContainer{ 
+	margin:0 auto; 
+	width:1224px; 
+	height:700px; 
+	border:1px solid #F00;
+	box-shadow: 1px 0 6px 0 rgba(180, 180, 180, 0.4);
+} 
+.boxLeft {
+	width: 896px;
+	overflow: hidden;
+}
+
+/*news*/
+.news {
+	text-align:left;
+}
+/*smallImg*/
+.smallImg {
+	float:left;
+	position: relative;
+	background:#0C6;
+}
+#smallImg-box {
+	height: 128px;
+}
+.smallImg li {
+	float: left;
+	width: 112px;
+}
+.smallImg li a {
+	display: block;
+	width: 106px;
+	height: 106px;
+	border: 3px solid #fff;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px auto;
+}
+.smallImg img {
+	width: 106px;
+}
+.smallImg li a:hover, .smallImg .cur a {
+	border-color: #F45E5E;
+}
+#smallImg-pre, #smallImg-next {
+	position: absolute;
+	top: 0;
+	height: 92px;
+	width: 28px;
+	margin: 0;
+	background: url(../image/album-arrow.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+#smallImg-pre {
+	left: 0;
+}
+#smallImg-next {
+	right: 0;
+	background-position: 0 -94px;
+}
+#smallImg-pre:hover {
+	background-position: -28px 0;
+}
+#smallImg-next:hover {
+	background-position: -28px -94px;
+}
+
+.boxRight {
+	width: 256px;
+	overflow: hidden;
+}
+/*detailImg*/
+.detailImg {
+	float:left;
+	width:256px;
+}
+#detailImg-box, #bigTwoImg-box {
+	background:#39F;
+}
+#detailImg-box img, #bigTwoImg-box img {
+	width:256px;
+	height:256px;	
+}
